@@ -10,8 +10,8 @@ const Userverify = () => {
 
 const client = new ApolloClient({
   // uri: "http://localhost:4000",
-  // uri: "http://192.168.1.6:4000/",
-  uri: "http://192.168.1.12:4000/graphql",
+  uri: "https://rent-admin-be.onrender.com/graphql",
+  // uri: "http://192.168.1.12:4000/graphql",
   cache: new InMemoryCache(),
   headers: { Authorization: Userverify() },
 });
